@@ -34,7 +34,36 @@ It runs **zero external dependencies** beyond Docker containers for Postgres, Re
 │  Self-Play) │   + Kafka)  │   Memory)   │    ments)         │
 ├─────────────┴─────────────┴─────────────┴───────────────────┤
 │                    Edge Layer (WASM)                         │
-│              Zig Guest → wazero Host Runtime                 │
+│              Zig Guest → wazero Host Runtime                 │BSD 3-Clause License
+
+Copyright (c) 2026, Julius HIll
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -209,3 +238,21 @@ This is early open source. Expect breaking changes.
 ## 🏷️ Tags
 
 `ai-orchestration` `wasm` `zig` `go` `neural-architecture-search` `zero-knowledge` `monolith` `self-healing` `kafka` `pgvector` `edge-computing`
+---
+
+## 🛑 Commercial Licensing & Enterprise Terms
+
+### ⚠️ PRODUCTION USE REQUIRES A PAID LICENSE
+This software is governed strictly by the **Business Source License 1.1 (BSL 1.1)**. 
+
+* **Free Tier:** You are completely free to clone, read, benchmark, tweak, and run this architecture locally for non-production testing, development isolates, and hobbyist environments.
+* **Commercial Production Tier:** Running this local-first microservice framework or its automated routing components inside a live, revenue-generating, or operational enterprise environment **is legally restricted**. 
+
+> ### 💼 Enterprise Compliance Notice
+> If your organization scales past individual evaluation loops and integrates these modules into commercial production pipelines, you must execute a paid **Commercial Enterprise Agreement**. Licensing metrics scale linearly based on internal seats, container deployment instances, or flat-rate cluster footprints.
+
+To negotiate a commercial production license, white-label distribution rights, or custom enterprise architecture support contracts, contact the engineering desk at:
+📧 **licensing@titanuai.com**
+
+---
+Copyright (c) 2026, TitanU AI LLC / JuJu Labs. All rights reserved.
